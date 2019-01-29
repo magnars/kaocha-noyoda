@@ -14,7 +14,7 @@ Add `[kaocha-noyoda "2019-01-29"]` as a dev dependency, then enable the plugin:
 {:plugins [:noyoda.plugin/swap-actual-and-expected]}
 ```
 
-That's it.
+Make sure you are using `[lambdaisland/kaocha "0.0-389"]` or newer.
 
 Thanks to [Arne Brasseur](https://github.com/plexus) for all his work on Kaocha,
 and for infusing it with such powerful extension mechanisms. If you find Kaocha
