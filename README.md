@@ -7,7 +7,7 @@ plugin lets you write `(is (= actual expected))`.
 
 ### Usage
 
-Add `[kaocha-noyoda "2019-01-29"]` as a dev dependency, then enable the plugin:
+Add `[kaocha-noyoda "2019-06-03"]` as a dev dependency, then enable the plugin:
 
 ```
 #kaocha/v1
