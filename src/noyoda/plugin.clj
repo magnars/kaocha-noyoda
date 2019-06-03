@@ -7,6 +7,7 @@
               (if (and (= :fail (:type e))
                        (:actual e)
                        (:expected e)
+                       (not (instance? Throwable (:actual e)))
                        (= 'not (first (:actual e)))
                        (= '= (first (second (:actual e))))
                        (= '= (first (:expected e))))
